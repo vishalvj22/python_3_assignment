@@ -1,0 +1,5 @@
+name = input('what is your name?')
+weight = float(input('What is your weight? (Kg) '))
+height = float(input('What is your height? (Mtr) '))
+BMI = round(weight/ (height * height), 1)
+print('the BMI is', BMI)

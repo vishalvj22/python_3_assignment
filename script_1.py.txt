@@ -1,0 +1,28 @@
+lion=2
+white_tiger = 2
+red_deer = 50
+Elephant = 10
+spider_monkey = 100
+zebra  = 17
+rhinoceroses = 10
+Black_Panther =10
+
+Harpy_Eagles =12
+White_backed_vulture =5
+
+
+Herbivorous = red_deer * Elephant * spider_monkey *zebra * rhinoceroses
+Carnivorous  = lion * white_tiger*Black_Panther*Harpy_Eagles*White_backed_vulture
+
+print("There are", lion, "Lions .")
+print("There are ", white_tiger , "white_tigers ")
+print("There are", red_deer, "red_deers")
+print("There are", Elephant, "Elephants .")
+print("There are", spider_monkey, "spider_monkey .")
+print("There are ", zebra , "zebra ")
+print("There are", rhinoceroses, "rhinoceroses")
+print("There are", Black_Panther, "Black_Panther .")
+print("There are", Harpy_Eagles, "Harpy_Eagles")
+print("There are", White_backed_vulture, "White_backed_vulture .")
+print("There are",Herbivorous,"Hervivorous")
+print("There are",Carnivorous,"Carnivorous")

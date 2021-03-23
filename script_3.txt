@@ -1,0 +1,46 @@
+list=['sunday','monday','tueday','wednesday','friday','saturday']
+tuple=("sunday","monday","tueday","wednesday","friday","saturday")
+
+print(list)
+print(tuple)
+
+####################################
+
+a=1
+b=2
+if a<b:
+    print("true")
+else:
+    print("false")
+######################################
+
+a=99
+b=8
+if a>=b:
+    print("true")
+else:
+    print("false")
+
+
+#####################################
+a=345678
+b=77777
+c=66666
+d=90
+E=a+b
+F=c-d
+if E<F:
+    print("True")
+else:
+    print("false")
+
+####################################
+
+a=7896
+b=5555
+c=a*b
+if c==8989898:
+    print("true")
+else:
+    print("false")
+© 2021 GitHub, Inc.

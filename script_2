@@ -1,0 +1,10 @@
+
+Month=["january","february","march","april","may","june","july","august","september","october","november","december"]
+Weekdays=('sunday','monday','tueday','wednesday','friday','saturday')
+for i in Month:
+    print(i)
+
+print(Weekdays)
+for i in range(1,11):
+    
+    print(i)

@@ -1,0 +1,29 @@
+"""
+(venv) C:\Users\HP\PycharmProjects\pythonProject>python main.py
+['main.py']
+(venv) C:\Users\HP\PycharmProjects\pythonProject>python main.py 1 2 3 4 5
+['main.py', '1', '2', '3', '4', '5']
+"""
+import sys
+
+arg:(1,2,3,4,5)
+print(type(sys.argv))
+print('The command line arguments are:',sys.argv)
+for i in sys.argv:
+    print(i)
+name = input(' name')
+weight = float(input(' weight? (Kg) '))
+height = float(input(' height? (Mtr) '))
+bmi = weight / (height * height)
+
+if bmi <= 18.5:
+    print('Your BMI is', bmi, 'which means you are underweight')
+
+elif 18.5 < bmi < 24.9:
+    print('Your BMI is', bmi, 'which means you are normal')
+
+elif 25.0 < bmi < 29.9:
+    print('your BMI is', bmi, ' which means you are overweight')
+
+elif bmi > 30.0:
+    print('Your BMI is', bmi, 'which means you are healthy')

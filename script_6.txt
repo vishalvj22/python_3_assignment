@@ -1,0 +1,43 @@
+Numbers= [1,2,3,4,5]
+# with for loop
+for i in Numbers:
+    print(i)
+# with while loop
+
+
+i=0
+while i<=4:
+    i = i + 1
+    print(i)
+
+# for loop
+
+Weekdays = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
+for i in Weekdays:
+    print(i)
+
+
+    # while loop
+days=0
+Weekdays = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
+while days <7:
+    print(Weekdays[days])
+    days +=1
+
+
+
+Num = [222,100,85,500,300];
+sum=0;
+for i in range(0,len(Num)):
+    sum=sum+Num[i]
+    print("The sum from for loop:"+str(sum))
+
+#while loop
+
+total=0
+ele=0
+Num = [222,100,85,500,300]
+while (ele < len(Num)):
+    total=total+Num[ele]
+    ele +=1
+    print("The sum from while loop:",total)
